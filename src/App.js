@@ -1,12 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Signup from './imports/ui/Signup'
+import Links from './imports/ui/Links'
+import Login from './imports/ui/Login'
+
 
 function App() {
-  return (
-    <div className="App">
-      This needs some deployment.
-    </div>
+  return (<div>
+
+  -----APP-------
+   <div>This is the app </div> 
+  -----SIGNUP-adsdadsa---
+  <Signup/>
+  -----LINK----
+  <Links/>
+  -----LOGIN----
+  <Login/>
+  </div>
   );
 }
 
